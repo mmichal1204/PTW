@@ -1,0 +1,275 @@
+        body {
+            background-color: rgb(244, 248, 248);
+        }
+
+        .opis-miejsca {
+            width: 800px;
+        }
+
+        .fav-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        img {
+            height: 180px;
+            width: 180px;
+        }
+
+        .form {
+            margin: 50px auto;
+            width: 300px;
+            padding: 30px 25px;
+            background: a;
+        }
+
+        h1.login-title {
+            color: #666;
+            margin: 0 auto 25px;
+            font-size: 25px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .login-input {
+            font-size: 15px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 25px;
+            height: 25px;
+            width: calc(100% - 23px);
+        }
+
+        .login-input:focus {
+            border-color: #6e8095;
+            outline: none;
+        }
+
+        .login-button {
+            color: #fff;
+            background: #55a1ff;
+            border: 0;
+            outline: 0;
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .link {
+            color: #6c0780;
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        .link a {
+            color: #6c0780;
+        }
+
+        h3 {
+            font-weight: normal;
+            text-align: center;
+        }
+
+        #me p {
+            padding: 100px;
+        }
+
+        #me button:hover,
+        button:hover {
+            background-color: #1a314b;
+            color: #ffffff;
+        }
+
+        #me button {
+            width: auto;
+            color: #080808;
+            background-color: #15273c00;
+            padding: 5px;
+            font-size: medium;
+            text-align: center;
+        }
+
+        nav {
+            color: #020408;
+            background-color: #fcfcfc;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            margin-top: 0px;
+            float: left;
+            padding: 20px;
+            box-shadow: 2px 2px 5px;
+        }
+
+        header {
+            display: inline-flex;
+            background-color: whitesmoke;
+            border-radius: 15px;
+            height: 60px;
+            width: calc(98%);
+            margin: auto;
+            box-shadow: 2px 2px 5px;
+            margin-bottom: 20px;
+            padding-right: 20px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button,
+        .button {
+            font-family: "face";
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #ffffff;
+            background-color: #ff6600;
+            border: none;
+            border-radius: 10px;
+            height: 30px;
+            width: calc(32%);
+        }
+
+        .blad {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 500px;
+            color: palevioletred;
+            background-color: #fcfcfc;
+            border-radius: 15px;
+            margin: auto;
+            margin-top: calc(10%);
+            box-shadow: 2px 2px 5px #c6ced8;
+        }
+
+        .fav {
+            float: center;
+            width: 50px;
+            height: 50px;
+        }
+
+        table {
+            float: center;
+            padding-left: 100px;
+        }
+
+        .footer-dark {
+            padding: 50px 0;
+            color: #f0f9ff;
+            background-color: #282d32;
+        }
+
+        .footer-dark h3 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .footer-dark ul {
+            padding: 0;
+            list-style: none;
+            line-height: 1.6;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        .footer-dark ul a {
+            color: inherit;
+            text-decoration: none;
+            opacity: 0.6;
+        }
+
+        .footer-dark ul a:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 767px) {
+            .footer-dark .item:not(.social) {
+                text-align: center;
+                padding-bottom: 20px;
+            }
+        }
+
+        .footer-dark .item.text {
+            margin-bottom: 36px;
+        }
+
+        @media (max-width: 767px) {
+            .footer-dark .item.text {
+                margin-bottom: 0;
+            }
+        }
+
+        .footer-dark .item.text p {
+            opacity: 0.6;
+            margin-bottom: 0;
+        }
+
+        .footer-dark .item.social {
+            text-align: center;
+        }
+
+        @media (max-width: 991px) {
+            .footer-dark .item.social {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+
+        .footer-dark .item.social > a {
+            font-size: 20px;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+            margin: 0 8px;
+            color: #fff;
+            opacity: 0.75;
+        }
+
+        .footer-dark .item.social > a:hover {
+            opacity: 0.9;
+        }
+
+        .footer-dark .copyright {
+            text-align: center;
+            padding-top: 24px;
+            opacity: 0.3;
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+
+        .thumbnail {
+            width: 100px;
+            height: 75px;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .main-image {
+            width: auto;
+            height: 500px;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .thumbnail:hover {
+            opacity: 0.7;
+        }
